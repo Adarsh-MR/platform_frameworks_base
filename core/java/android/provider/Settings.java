@@ -50,7 +50,7 @@ import android.os.IBinder;
 import android.os.LocaleList;
 import android.os.Process;
 import android.os.RemoteException;
-import android.os.ServiceManager;
+import android.os.ServiceManager
 import android.os.UserHandle;
 import android.os.Build.VERSION_CODES;
 import android.speech.tts.TextToSpeech;
@@ -4030,6 +4030,12 @@ public final class Settings {
          * @hide
          */
         public static final String STATUS_BAR_CITRUS_LOGO = "status_bar_citrus_logo";
+
+        /**
+         * Disable hw buttons - actions, brightness, haptic feedback, overflow menu
+         * @hide
+         */
+        public static final String HARDWARE_KEYS_DISABLE = "hardware_keys_disable";
 
         /**
          * Settings to backup. This is here so that it's in the same place as the settings
