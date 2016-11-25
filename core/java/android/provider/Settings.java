@@ -4031,6 +4031,12 @@ public final class Settings {
          */
         public static final String STATUS_BAR_CITRUS_LOGO = "status_bar_citrus_logo";
 
+         /**
+         * Quick Settings number of columns
+         * @hide
+         */
+        public static final String QS_LAYOUT_COLUMNS = "qs_layout_columns";
+
         /**
          * Disable hw buttons - actions, brightness, haptic feedback, overflow menu
          * @hide
