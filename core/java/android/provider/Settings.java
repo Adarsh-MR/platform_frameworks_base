@@ -50,7 +50,7 @@ import android.os.IBinder;
 import android.os.LocaleList;
 import android.os.Process;
 import android.os.RemoteException;
-import android.os.ServiceManager
+import android.os.ServiceManager;
 import android.os.UserHandle;
 import android.os.Build.VERSION_CODES;
 import android.speech.tts.TextToSpeech;
@@ -4038,12 +4038,6 @@ public final class Settings {
         public static final String QS_LAYOUT_COLUMNS = "qs_layout_columns";
 
         /**
-         * Disable hw buttons - actions, brightness, haptic feedback, overflow menu
-         * @hide
-         */
-        public static final String HARDWARE_KEYS_DISABLE = "hardware_keys_disable";
-
-        /**
          * Number of rows used for the Quick Settings (portrait)
          *
          * @hide
@@ -6995,6 +6989,12 @@ public final class Settings {
                 "camera_double_twist_to_flip_enabled";
 
         /**
+         * Disable hw buttons - actions, brightness, haptic feedback, overflow menu
+         * @hide
+         */
+        public static final String HARDWARE_KEYS_DISABLE = "hardware_keys_disable";
+
+        /**
          * Status bar battery %
          * 0: Hide the battery percentage
          * 1: Display the battery percentage inside the icon
@@ -7002,7 +7002,8 @@ public final class Settings {
          * @hide
          */
         public static final String STATUS_BAR_SHOW_BATTERY_PERCENT = "status_bar_show_battery_percent";
-.       /**
+
+        /**
          * Display style of the status bar battery information
          * 0: Display the battery an icon in portrait mode
          * 2: Display the battery as a circle

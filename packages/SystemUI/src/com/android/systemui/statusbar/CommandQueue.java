@@ -527,7 +527,7 @@ public class CommandQueue extends IStatusBar.Stub {
                     break;
                 case MSG_HANDLE_SYSNAV_KEY:
                     mCallbacks.handleSystemNavigationKey(msg.arg1);
-                    break
+                    break;
                 case MSG_SCREEN_PINNING_STATE_CHANGED:
                     mCallbacks.screenPinningStateChanged(msg.arg1 != 0);
                     break;
